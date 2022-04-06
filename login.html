@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>LogIn</title>
+        <link rel="stylesheet" href="login.css">
+        <script src="login.js"></script>
+        <script src="addToCart.js"></script>
+    </head>
+
+    <body>
+                <div class="logo">
+                    <img src="images/logo-paypal.png" width="180px"/>
+                </div>
+        <div class="login-page">
+            <div class="form">
+                <form class="register-form" id="form" action="home.html">
+                    <input type="text" id="name" placeholder="Username.." >
+                    <input type="text" id="pass" placeholder="Password.." >
+                    <input type="text" id="mail" placeholder="email.." >
+                    <button type="submit">Register</button>
+                    <p class="message"> 
+                        already registered ?
+                        <a href="#">LogIn</a>
+                    </p>
+                </form>
+
+                <form class="login-form" action="home.html" id="father">
+                    <input type="text" placeholder="Username.." id="allmysons" required>
+                    <input type="password" placeholder="Password.." id="allmysons2" required>
+                    <button type="submit">Login</button>
+                    <p class="message"> 
+                        Not registered ?
+                        <a href="#" id="click">Rigester here</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+        <div id="error"></div>
+        <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script> 
+        <script src="login.js"></script>
+    </body>
+</html>
